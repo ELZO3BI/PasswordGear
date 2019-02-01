@@ -5,9 +5,9 @@ import string
 import hashlib
 
 gen1 = string.digits + string.ascii_lowercase + string.punctuation  # Variable: gen1, contains numbers and lowercase alphabet and punctuation marks.
-gen2 = string.digits                                               # Variable: gen2, contains only numbers.
-gen3 = string.ascii_lowercase + string.ascii_uppercase             # Variable: gen3, contains only lowercase and uppercase alphabet.
-gen4 = string.punctuation                                          # Variable: gen4, contains only punctuation marks.
+gen2 = string.digits                                                # Variable: gen2, contains only numbers.
+gen3 = string.ascii_lowercase + string.ascii_uppercase              # Variable: gen3, contains only lowercase and uppercase alphabet.
+gen4 = string.punctuation                                           # Variable: gen4, contains only punctuation marks.
 
 print('Random Password Generating Or Hashing.\n')
 
