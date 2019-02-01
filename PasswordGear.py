@@ -51,7 +51,7 @@ elif choice == 7:
     print(''.join(random.sample(gen2 * custom2, custom2)))  # prints a random password contains only numbers, you choose your own length.
 
 elif choice == 8:
-    print('''Hashing Methods:
+    print('''Hashing Methods/Algorithms:
 
 1. MD5           
 2. SHA-1
