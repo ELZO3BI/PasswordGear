@@ -5,7 +5,7 @@ import string
 import hashlib
 
 gen1 = string.digits + string.ascii_lowercase + string.punctuation  # Variable: gen1, contains numbers and lowercase alphabet and punctuation marks.
-gen2 = string.digits                                               # Variable: gen2, contains only number.
+gen2 = string.digits                                               # Variable: gen2, contains only numbers.
 gen3 = string.ascii_lowercase + string.ascii_uppercase             # Variable: gen3, contains only lowercase and uppercase alphabet.
 gen4 = string.punctuation                                          # Variable: gen4, contains only punctuation marks.
 
@@ -68,42 +68,42 @@ elif choice == 8:
         hasher = hashlib.md5()
         hasher.update(str(tohash).encode('utf-8'))  # ecnrypts your password with md5.
         hashed_password = hasher.hexdigest()
-        print('\n[-] Your Hashed Password Is:', hashed_password)
+        print('\n[-] Your Hashed Password Is:', hashed_password) # prints your encrypted password.
 
     elif otherchoice == 2:
         tohash = input('Write Your Password To Encrypt it with SHA-1 : ')
         hasher = hashlib.sha1()
         hasher.update(str(tohash).encode('utf-8'))  # ecrypts your password with sha-1, secure hash algorithm 1.
         hashed_password = hasher.hexdigest()
-        print('\n[-] Your Hashed Password Is:', hashed_password)
+        print('\n[-] Your Hashed Password Is:', hashed_password) # prints your encrypted password.
 
     elif otherchoice == 3:
         tohash = input('Write Your Password To Encrypt it with SHA-224: ')
         hasher = hashlib.sha224()
         hasher.update(str(tohash).encode('utf-8'))  # ecrypts your password with sha-224, secure hash algorithm 224.
         hashed_password = hasher.hexdigest()
-        print('\n[-] Your Hashed Password Is:', hashed_password)
+        print('\n[-] Your Hashed Password Is:', hashed_password) # prints your encrypted password.
 
     elif otherchoice == 4:
         tohash = input('Write Your Password To Encrypt it with SHA-256: ')
         hasher = hashlib.sha256()
         hasher.update(str(tohash).encode('utf-8'))  # encrypts your password with sha-256, secure hash algorithm 256.
         hashed_password = hasher.hexdigest()
-        print('\n[-] Your Hashed Password Is:', hashed_password)
+        print('\n[-] Your Hashed Password Is:', hashed_password) # prints your encrypted password.
 
     elif otherchoice == 5:
         tohash = input('Write Your Password To Encrypt it with SHA-384: ')
         hasher = hashlib.sha384()
         hasher.update(str(tohash).encode('utf-8'))  # encrypts your password with sha-384, secure hash algorithm 384.
         hashed_password = hasher.hexdigest()
-        print('\n[-] Your Hashed Password Is:', hashed_password)
+        print('\n[-] Your Hashed Password Is:', hashed_password) # prints your encrypted password.
 
     elif otherchoice == 6:
         tohash = input('Write Your Password To Encrypt it with SHA-512: ')
         hasher = hashlib.sha512()
         hasher.update(str(tohash).encode('utf-8'))  # encrypts your password with sha-512, secure hash algorithm 512.
         hashed_password = hasher.hexdigest()
-        print('\n[-] Your Hashed Password Is:', hashed_password)
+        print('\n[-] Your Hashed Password Is:', hashed_password) # prints your encrypted password.
 
     else:
         print('[-] You must choose any of the displayed hash types [1-6]')
