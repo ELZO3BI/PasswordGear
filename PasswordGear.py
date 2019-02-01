@@ -60,7 +60,7 @@ elif choice == 8:
 5. SHA-384
 6. SHA-512\n''')
 
-    otherchoice = int(input('Select The Hashing Method You Want [1-6]: '))  # enter the hashing algorithm you wanted your password to be hashed/encrypted with.
+    otherchoice = int(input('Select The Hashing Method/Algorithm You Want [1-6]: '))  # enter the hashing algorithm you wanted your password to be hashed/encrypted with.
     print('')
 
     if otherchoice == 1:
