@@ -35,7 +35,7 @@ elif choice == 3:
     print(''.join(random.sample(gen1 * 25, 25)))  # prints a random password length is 25, mixed numbers with alphabet and punctuation marks.
 
 elif choice == 4:
-    custom = int(input('Type the length you want: '))
+    custom = int(input('Type in the length you want: '))
     print('')
     print(''.join(random.sample(gen1 * custom, custom)))  # prints a random password, mixed numbers with characters and punctuation marks, you choose your own length.
 
@@ -46,7 +46,7 @@ elif choice == 6:
     print(''.join(random.sample(gen4 * 20, 20)))  # prints a random password only punctuation marks length is 20.
 
 elif choice == 7:
-    custom2 = int(input('Type the length you want: '))
+    custom2 = int(input('Type in the length you want: '))
     print('')
     print(''.join(random.sample(gen2 * custom2, custom2)))  # prints a random password contains only numbers, you choose your own length.
 
