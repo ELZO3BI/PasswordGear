@@ -1,5 +1,5 @@
 # PasswordGear
-Python3 program, generates random strong passwords or hashing passwords with the displayed secure hashing algorithms 
+Python3 program, generates random strong passwords or hashing passwords with the displayed secure hashing algorithms. 
 
 md5/ 
  sha1/ 
