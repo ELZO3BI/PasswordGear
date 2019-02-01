@@ -19,7 +19,7 @@ print ('5. Only Alphabet, Lower & Upper case Password, length "25".')
 print ('6. Only Punctuation Marks Password, length "20".')
 print ('7. Only Numbers Password, length "Custom".')
 print ('----------------------------------------------------------')
-print ('8. Encrypt Your Password With Couple Of Hashing Methods.\n')
+print ('8. Encrypt Your Password With Couple Of Hashing Methods/Algorithms.\n')
 
 que = int(input('Select The Type Of Password You Want, Or To Enrypt [1-8]: '))  # creating our input section. either you want to choose password outputs or encrypting.
 print('')             # ignore this it's just for skipping lines.
