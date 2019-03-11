@@ -33,7 +33,6 @@ choice = (que)        # choice = our input section
 if choice == 1:
     print(''.join(random.sample(gen1 * 10, 10)))  # prints a random password length is 10, mixed numbers with alphabet and punctuation marks.
     
-
 elif choice == 2:
     print(''.join(random.sample(gen1 * 15, 15)))  # prints a random password length is 15, mixed numbers with alphabet and punctuation marks.
 
