@@ -20,4 +20,6 @@ feel free using or copying it.
 
 what's new?
 
-now you can encrypt multiple passwords with "Yes Or No" questioning without restarting the program. 
+now you can encrypt multiple passwords with "Yes Or No" questioning without restarting the program.
+
+more improvements coming soon...
