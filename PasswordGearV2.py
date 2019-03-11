@@ -26,7 +26,7 @@ def main():
 
 main()
 
-que = int(input('Select The Type Of Password You Want, Or To Enrypt [1-8]: '))  # creating our input section. either you want to choose password outputs or encrypting.
+que = int(input('Select The Type Of Password You Want, Or To Encrypt [1-8]: '))  # creating our input section. either you want to choose password outputs or encrypting.
 print('')             # ignore this it's just for skipping lines.
 choice = (que)        # choice = our input section
 
