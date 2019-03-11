@@ -4,7 +4,7 @@ import random
 import string
 import hashlib
 import sys
-import os
+
 
 gen1 = string.digits + string.ascii_lowercase + string.punctuation  # Variable: gen1, contains numbers and lowercase alphabet and punctuation marks.
 gen2 = string.digits                                                # Variable: gen2, contains only numbers.
@@ -12,7 +12,6 @@ gen3 = string.ascii_lowercase + string.ascii_uppercase              # Variable: 
 gen4 = string.punctuation                                           # Variable: gen4, contains only punctuation marks.
 
 def main():
-    os.system('cls')
     print('Random Password Generating Or Hashing.\n')
 
     print ('1. Regular Password, length "10".')
