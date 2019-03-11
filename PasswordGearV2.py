@@ -5,7 +5,6 @@ import string
 import hashlib
 import sys
 
-
 gen1 = string.digits + string.ascii_lowercase + string.punctuation  # Variable: gen1, contains numbers and lowercase alphabet and punctuation marks.
 gen2 = string.digits                                                # Variable: gen2, contains only numbers.
 gen3 = string.ascii_lowercase + string.ascii_uppercase              # Variable: gen3, contains only lowercase and uppercase alphabet.
