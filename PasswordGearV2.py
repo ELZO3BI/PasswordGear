@@ -11,10 +11,8 @@ gen2 = string.digits                                                # Variable: 
 gen3 = string.ascii_lowercase + string.ascii_uppercase              # Variable: gen3, contains only lowercase and uppercase alphabet.
 gen4 = string.punctuation                                           # Variable: gen4, contains only punctuation marks.
 
-
 def main():
     os.system('cls')
-    
     print('Random Password Generating Or Hashing.\n')
 
     print ('1. Regular Password, length "10".')
@@ -26,7 +24,6 @@ def main():
     print ('7. Only Numbers Password, length "Custom".')
     print ('---------------------------------------------------------------------')
     print ('8. Encrypt Your Password With Couple Of Hashing Methods/Algorithms.\n')
-
 
 main()
 
