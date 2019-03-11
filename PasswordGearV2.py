@@ -28,7 +28,7 @@ main()
 
 que = int(input('Select The Type Of Password You Want, Or To Enrypt [1-8]: '))  # creating our input section. either you want to choose password outputs or encrypting.
 print('')             # ignore this it's just for skipping lines.
-choice = (que)     # choice = our input section
+choice = (que)        # choice = our input section
 
 if choice == 1:
     print(''.join(random.sample(gen1 * 10, 10)))  # prints a random password length is 10, mixed numbers with alphabet and punctuation marks.
