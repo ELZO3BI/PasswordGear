@@ -1,5 +1,5 @@
 # PasswordGear Version 2
-Python3 program, generates random strong passwords or hashing passwords with the displayed secure hashing algorithms.
+Python3 program, passwords, port scanning, host ip grabber.
 
 md5/ 
  sha1/ 
@@ -16,11 +16,3 @@ random/
  hashlib/
  sys.
 
-in this program you have 8 options, either you want to output a strong password or if you want to hash/encrypt your password,
-feel free using or copying it.
-
-what's new?
-
-now you can encrypt multiple passwords with "Yes Or No" questioning without restarting the program.
-
-more improvements coming soon...
